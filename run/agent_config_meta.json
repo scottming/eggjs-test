@@ -1,0 +1,257 @@
+{
+  "keys": "/Users/Scott/Desktop/sequelize-example/config/config.default.js",
+  "sequelize": {
+    "dialect": "/Users/Scott/Desktop/sequelize-example/config/config.default.js",
+    "database": "/Users/Scott/Desktop/sequelize-example/config/config.default.js",
+    "host": "/Users/Scott/Desktop/sequelize-example/config/config.default.js",
+    "port": "/Users/Scott/Desktop/sequelize-example/config/config.default.js",
+    "username": "/Users/Scott/Desktop/sequelize-example/config/config.default.js",
+    "password": "/Users/Scott/Desktop/sequelize-example/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/Scott/Desktop/sequelize-example/config/config.default.js",
+      "useSession": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/Scott/Desktop/sequelize-example/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+  "name": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "version": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "description": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "private": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "pg": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "pg-hstore": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "ramda": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "dev": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "test": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "cov": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "lint": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "ci": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "autod": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "migrate:new": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "migrate:up": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "migrate:down": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "url": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "license": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "env": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "level": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "coreMiddleware": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/Scott/Desktop/sequelize-example/node_modules/egg/config/config.default.js"
+  }
+}

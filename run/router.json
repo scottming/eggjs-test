@@ -1,0 +1,235 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/users",
+    "regexp": "/^\\/users(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/Scott/Desktop/sequelize-example/app/controller/user.js#UserController.users()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:id",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/Scott/Desktop/sequelize-example/app/controller/user.js#UserController.user()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/users",
+    "regexp": "/^\\/users(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/Scott/Desktop/sequelize-example/app/controller/user.js#UserController.create()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:id",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/Scott/Desktop/sequelize-example/app/controller/user.js#UserController.update()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:id",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/Scott/Desktop/sequelize-example/app/controller/user.js#UserController.del()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/posts",
+    "regexp": "/^\\/posts(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/Scott/Desktop/sequelize-example/app/controller/post.js#UserController.posts()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/posts/:id",
+    "regexp": "/^\\/posts\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/Scott/Desktop/sequelize-example/app/controller/post.js#UserController.post()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [
+      {
+        "name": "user_id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:user_id/posts",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))\\/posts(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/Scott/Desktop/sequelize-example/app/controller/post.js#UserController.create()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "user_id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:user_id/posts/:id",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))\\/posts\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/Scott/Desktop/sequelize-example/app/controller/post.js#UserController.update()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "user_id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:user_id/posts/:id",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))\\/posts\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/Scott/Desktop/sequelize-example/app/controller/post.js#UserController.del()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/data",
+    "regexp": "/^\\/data(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/Scott/Desktop/sequelize-example/app/controller/data.js#DataController.create()"
+    ]
+  }
+]
