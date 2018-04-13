@@ -18,19 +18,29 @@ class Post extends Service {
     return this.ctx.model.Post.findAndCountAll(options)
   }
 
-  async find (id) {
-    const post = await this.ctx.model.Post.findById(id, {
-      include: [{
-        model: this.ctx.model.User,
-        as: 'user',
-        attributes: [ 'id', 'name', 'age' ]
-      }]
+  async find (reqBody) {
+    const name = reqBody.name
+    const user = await this.ctx.model.User.findOne({
+      where: {name: name}
     })
-    if (!post) {
-      this.ctx.throw(404, 'post not found')
-    }
-    return post
+    // const post = user.getPost() //
+    const posts = user.getPosts() // 两种方式都会报错。
+    return posts
   }
+
+  // async find (id) {
+  //   const post = await this.ctx.model.Post.findById(id, {
+  //     include: [{
+  //       model: this.ctx.model.User,
+  //       as: 'user',
+  //       attributes: [ 'id', 'name', 'age' ]
+  //     }]
+  //   })
+  //   if (!post) {
+  //     this.ctx.throw(404, 'post not found')
+  //   }
+  //   return post
+  // }
 
   async create (post) {
     return this.ctx.model.Post.create(post)

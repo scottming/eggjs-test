@@ -10,7 +10,8 @@ class UserController extends Controller {
 
   async post () {
     const ctx = this.ctx
-    ctx.body = await ctx.service.post.find(ctx.params.id)
+    // ctx.body = await ctx.service.post.find(ctx.params.id)
+    ctx.body = await ctx.service.post.find(ctx.request.body)
   }
 
   async create () {

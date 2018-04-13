@@ -97,8 +97,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/posts",
@@ -110,23 +109,11 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
-    "paramNames": [
-      {
-        "name": "id",
-        "prefix": "/",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      }
-    ],
-    "path": "/posts/:id",
-    "regexp": "/^\\/posts\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "paramNames": [],
+    "path": "/post",
+    "regexp": "/^\\/post(?:\\/(?=$))?$/",
     "stack": [
       "/Users/Scott/Desktop/sequelize-example/app/controller/post.js#UserController.post()"
     ]
